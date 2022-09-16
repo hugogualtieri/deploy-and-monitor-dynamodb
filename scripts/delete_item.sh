@@ -1,0 +1,1 @@
+aws dynamodb delete-item --table-name deploy_and_monitor --key '{"id": {"S": "1"}}'

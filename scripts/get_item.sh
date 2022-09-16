@@ -1,0 +1,1 @@
+aws dynamodb get-item --table-name deploy_and_monitor --key '{"id": {"S": "1"}}' >> logs.txt
